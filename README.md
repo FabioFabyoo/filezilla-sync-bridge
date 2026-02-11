@@ -7,12 +7,12 @@ FileZilla salva i tuoi siti in un file locale. Se lavori su più computer (fisso
 
 ## ⚙️ Come funziona
 Lo script automatizza il movimento del file `sitemanager.xml`:
-- **Upload:** Copia il file dalla cartella `%APPDATA%` locale al tuo Cloud.
-- **Download:** Sovrascrive la configurazione locale con quella aggiornata dal Cloud.
+- **Upload:** Copia il file dalla cartella `%APPDATA%` locale al tuo Cloud
+- **Download:** Sovrascrive la configurazione locale con quella aggiornata dal Cloud
 
 ## 🛠️ Requisiti
 - Windows OS
-- Un client Cloud (Nextcloud, Dropbox, OneDrive) installato con una cartella locale.
+- Un client Cloud (Nextcloud, Dropbox, OneDrive) installato con una cartella locale
 
 ## 🔧 Personalizzazione
 Basta modificare la riga `set "CLOUD_PATH=..."` all'interno dello script per puntare alla cartella del tuo servizio Cloud preferito.
